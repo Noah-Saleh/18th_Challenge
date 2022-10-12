@@ -204,7 +204,7 @@ if st.button("Add Block"):
             amount,
                      ),
         creator_id=42,
-        prev_hash=prev_block_hash
+        prev_hash=prev_block_hash,
     )
 
     pychain.add_block(new_block)
